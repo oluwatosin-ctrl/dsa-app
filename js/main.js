@@ -5,6 +5,7 @@ const {
   getNextSunday,
   deterministicShuffle,
 } = require("./utils");
+const phoneNumbers = require("./candidatesDetails");
 
 function getWeekRangeString() {
   return getNearestMonday() + " - " + getNextSunday();
@@ -25,8 +26,12 @@ function getRoundNumber() {
 
 function appendScheduleToDOM(participants1, participants2) {
   const pairings = [];
+  const chatAppPrefix = 'https://wa.me/';
   for (let i = 0; i < participants1.length; i += 1) {
-    const pairing = `<li>${participants1[i]} - ${participants2[i]}</li>`;
+    let participants1Number = chatAppPrefix+phoneNumbers[participants1[i]]
+    let participants2Number = chatAppPrefix+phoneNumbers[participants2[i]]
+
+    const pairing = `<li><a href=${participants1Number} target="_blank">${participants1[i]}</a> - <a href=${participants2Number} target="_blank">${participants2[i]}</a></li>`;
     pairings.push(pairing);
   }
   const element = document.getElementById("app");
