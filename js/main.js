@@ -1,14 +1,14 @@
 const Prando = require("prando").default;
 const { members, REFERENCE_DATE_STRING } = require("./constants");
 const {
-  getNearestMonday,
+  getNearestSunday,
   getNextSunday,
   deterministicShuffle,
 } = require("./utils");
 const phoneNumbers = require("./candidatesDetails");
 
 function getWeekRangeString() {
-  return getNearestMonday() + " - " + getNextSunday();
+  return getNearestSunday() + " - " + getNextSunday();
 }
 
 function weeksSince(dateString) {
