@@ -40,16 +40,15 @@ function toddMMYYYY(dd,mm,yyyy){
 }
 
 
-function getNextSunday(d) {
+function getNextSaturday(d) {
     const currentDate = new Date();
     let day = currentDate.getDay()
-    // var diff = currentDate.getDate() - day + (day == 0 ? -6:1); // adjust when day is sunday
     let date = currentDate.getDate();
-    let diff = day > 0 ? date + (6-day+1) : date + 7;
-    const nextSunday  = new Date(currentDate.setDate(diff));
-    let dd = nextSunday.getDate();
-    let mm = nextSunday.getMonth() + 1;
-    let yyyy = nextSunday.getFullYear();
+    let diff = day != 1 ? date+(6-day) : date+7;
+    const nextSaturday  = new Date(currentDate.setDate(diff));
+    let dd = nextSaturday.getDate();
+    let mm = nextSaturday.getMonth() + 1;
+    let yyyy = nextSaturday.getFullYear();
     return toddMMYYYY(dd,mm,yyyy);
 }
 
@@ -65,6 +64,6 @@ function deterministicShuffle(arr,rng){
 
 module.exports = {
     getNearestSunday,
-    getNextSunday,
+    getNextSaturday,
     deterministicShuffle
 }
