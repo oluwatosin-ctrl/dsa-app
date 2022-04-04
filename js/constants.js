@@ -9,7 +9,7 @@ module.exports = {
       "Yosi",
       "Ifihan",
       "Olamilekan",
-      "Empty",
+      "Sarima",
       "Kromate",
       "Ovbioba",
       "Biola",
