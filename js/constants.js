@@ -14,7 +14,8 @@ module.exports = {
       "Ovbioba",
       "Biola",
       "Dotun",
-      "Yin"
+      "Yin",
+      "John Igwe"
     ],
     SET_2: [
       "JudeX",
@@ -29,8 +30,9 @@ module.exports = {
       "Shade",
       "Philip",
       "Tony",
-      "Sulyman",
-      "Paul"
+      "Sunkanmi",
+      "Paul",
+      "Temmy"
     ],
   },
   REFERENCE_DATE_STRING: "March 06, 2022",
