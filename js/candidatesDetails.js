@@ -30,5 +30,12 @@ module.exports = {
     "Sarima": 2348153278904,
     "Temmy": 2349032419608,
     "Sunkanmi": 2348061928256,
-    "John Igwe": 2348186492645
+    "John Igwe": 2348186492645,
+    "Bashorun": 2348077782025,
+    "Emmanuel Ogunwede": 2348178241625, 
+    "Uche": 2347067405149,
+    "Ayeesha": 2348077782025,
+    "Jimoh": 2349070822819,
+    "Paul Dumebi": 2348135540992,
+    "Quyum": 2348135697903
 }

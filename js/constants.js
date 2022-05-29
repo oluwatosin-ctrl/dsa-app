@@ -1,9 +1,9 @@
 module.exports = {
   members: {
     SET_1: [
-      "BlackDev",
+      // "BlackDev",
       "Yemi",
-      "Sesan",
+      // "Sesan",
       "Dro",
       "Bosipo",
       "Yosi",
@@ -15,7 +15,11 @@ module.exports = {
       "Biola",
       "Dotun",
       "Yin",
-      "John Igwe"
+      "John Igwe",
+      "Uche",
+      "Ayeesha",
+      "Jimoh",
+      "Paul Dumebi"
     ],
     SET_2: [
       "JudeX",
@@ -28,11 +32,14 @@ module.exports = {
       "Chisombiri",
       "iMyke",
       "Shade",
-      "Philip",
+      // "Philip",
       "Tony",
       "Sunkanmi",
       "Paul",
-      "Temmy"
+      "Temmy",
+      "Bashorun",
+      "Emmanuel Ogunwede",
+      "Quyum"
     ],
   },
   REFERENCE_DATE_STRING: "March 06, 2022",
