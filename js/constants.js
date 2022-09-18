@@ -10,6 +10,8 @@ module.exports = {
       "Ovbioba",
       "Dotun",
       "Gbenga",
+      "BlackDev",
+      "Sunkanmi"
     ],
     SET_2: [
       "Ifihan",
@@ -20,7 +22,9 @@ module.exports = {
       "iMyke",
       "Olamilekan",
       "Kromate",
-      "Tife"
+      "Tife",
+      "Bosipo",
+      "Quyum"
     ],
   },
   REFERENCE_DATE_STRING: "September 11, 2022",
