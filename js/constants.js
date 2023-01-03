@@ -15,7 +15,8 @@ module.exports = {
       "Uchechukwu",
       "iMyke",
       "CK",
-      "Wary"
+      "Wary",
+      "Aphomer"
     ],
     SET_2: [
       "BlackDev",
@@ -32,7 +33,8 @@ module.exports = {
       "Olamilekan",
       "Gbenga",
       "Ayomipo",
-      "Temiloluwa"
+      "Temiloluwa",
+      "Empty"
     ],
   },
   REFERENCE_DATE_STRING: "January, 2023",
