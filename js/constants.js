@@ -15,13 +15,14 @@ module.exports = {
       "Uchechukwu",
       "iMyke",
       "CK",
+      "Wary"
     ],
     SET_2: [
       "BlackDev",
       "Bosun",
       "Jimoh",
       "Tife",
-      "Empty",
+      "Bashorun",
       "Oluwatosin",
       "Bosipo",
       "John Igwe",
@@ -31,8 +32,9 @@ module.exports = {
       "Olamilekan",
       "Gbenga",
       "Ayomipo",
+      "Temiloluwa"
     ],
   },
-  REFERENCE_DATE_STRING: "Jaaaaaa, 2023",
+  REFERENCE_DATE_STRING: "January, 2023",
   SEED: "oqiefi1293919qnwkasdasd0s",
 };
