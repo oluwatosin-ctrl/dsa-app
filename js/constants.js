@@ -19,6 +19,6 @@ module.exports = {
       "Wura",
     ],
   },
-  REFERENCE_DATE_STRING: "April, 2023",
+  REFERENCE_DATE_STRING: "March, 2023",
   SEED: "oqiefi1293919qnwkasdasd0s",
 };
